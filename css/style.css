@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* MENU */
+.menu {
+    background-color: #321156;
+}
+
+header ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* DESCRIPCION */
+
+.banner {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 0; 
+}
+
+#infogym {
+    background-color: #321156;
+    width: 100%;
+    height: 3000px;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+    float: inline-start;
+    padding-left: 170px;
+    padding-top: 70px; 
+}
+
+
+.intro{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    float: inline-start;
+    padding-left: 170px;
+    padding-top: 50px;
+}
+
+.video-gym {
+    width: 25%;
+    height: 25%;
+    padding: 20px 0px 20px 190px;
+}
+
+
+
+.mas-info {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+/* CLASES */
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #321156;
+    }
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;}
+
+#info {
+    display: flex ;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#clases-gym {
+    background-color: #FFFFFF;
+    display: flex ;
+    justify-content: space-between;
+}
+
+.actividades {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #321156;
+}
+
+
+     /* GRID */   
+
+.container {
+    display: grid;
+    grid-row: 5;
+    row-gap: 10px;}
+
+
+    /* PRECIOS */
+
+.precios {
+    background-color: #c77dff;
+    padding-bottom: 10px;}
+
+.pases {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px 20px;}
+
+#tipos-abono {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-align: center ;
+    color: #ffffff;
+    padding-top: 60px;
+    background-color: #321156;
+    width: 220px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;}
+
+.wsp {
+    color: #E3409D;
+    font-size: 17px;}
+
+
+
+    /* UBICACIÓN */
+
+.mapa {
+    background-color: #321156;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    width: 80%;}
+
+.dirección {
+    float: inline-start;
+    padding-right: 90px;
+    padding-top: 180px}
+
+
+.maps {
+    width: 40%;
+    padding-right: 30px;}
+
+
+    /* APLICACIÓN */
+
+.app {
+    background-color: #FFFFFF;
+    display: flex;}
+    
+    
+.celu {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 250px; */
+}
+
+      
+.appinfo {
+    color: #321156;
+    padding-left: 180px;
+    justify-content: center;
+    text-align: center;
+    width: 500px;}
+    
+.tituloapp {
+    padding-top: 130px;}
+
+#reservar-turno {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;}
+
+.enlace {
+    color: #FFFFFF;
+    background-color: #E3409D;}
+   
+
+
+    /* FOOTER */
+
+  
+.footer {
+    background-image: url(../multimedia/pie\ de\ pag.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;}
+
+
+.datos-gimnasio {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-align: left ;
+    color: #ffffff;}
+
+.logos {
+    display: flex;}
+
+a.social-media img{
+    width: 24px;}

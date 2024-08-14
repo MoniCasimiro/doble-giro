@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* MENU */
+.menu {
+    background-color: #321156;
+}
+
+header ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+/* DESCRIPCION */
+
+.banner {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 0; 
+}
+
+#infogym {
+    background-color: #321156;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+
+.intro{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.video-gym {
+    margin: auto;
+    width: 250px;
+    
+}
+
+/* CLASES */
+#clases-gym {
+    background-color: #FFFFFF;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-seccion {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #321156;
+}
+
+
+.actividades {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #321156;
+}
+
+/* PRECIOS */
+
+.precios {
+    background-color: #c77dff;
+    padding-bottom: 10px;
+}
+
+.pases {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+#tipos-abono {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center ;
+    color: #ffffff;
+    padding-top: 60px;
+    background-color: #321156;
+    width: 220px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+
+.wsp {
+    color: #E3409D;
+    font-size: 17px;
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    #descripcion-gym{
+        width: 50%;
+    }
+
+}
+
