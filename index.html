@@ -31,10 +31,10 @@
                 <a class="nav-link" href="#info" class=>ACTIVIDADES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" class=>PLANES</a>
+                <a class="nav-link" href="#precios-planes" class=>PLANES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">BENEFICIOS</a>
+                <a class="nav-link" href="#descargar-app">APP</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="https://bit.ly/doblegiro"
@@ -78,40 +78,40 @@
 
         <!--CLASES-->
 
-        <div class="container">
+   
 
             <section class="info-seccion">
                 <h2 id="info">ENTRENÁ CON NOSOTRAS</h2>
 
                 <div id="clases-gym">
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="multimedia/muscu.png" class="musculación" alt="clases-musculación">
                         <div class="actividades">
-                            <h3 class="text-center m-1">MUSCULACIÓN</h3>
+                            <h3 class="text-center m-2">MUSCULACIÓN</h3>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="multimedia/funcional.png" class="funcional" alt="funcional">
                         <div class="actividades">
-                            <h3 class="text-center m-1">FUNCIONAL</h3>
+                            <h3 class="text-center m-2">FUNCIONAL</h3>
                         </div>
                     </div>
 
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="multimedia/grupales.png" class="grupales" alt="clases-grupales">
                         <div class="actividades">
-                            <h3 class="text-center m-1">CLASES GRUPALES</h3>
+                            <h3 class="text-center m-2">GRUPALES</h3>
                         </div>
                     </div>
 
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="multimedia/teens.png" class="teens" alt="gym-teens">
                         <div class="actividades">
-                            <h3 class="text-center m-1">GYM TEENS</h3>
+                            <h3 class="text-center m-2">GYM TEENS</h3>
                         </div>
                     </div>
                 </div>
@@ -124,22 +124,42 @@
             <!--PASES-->
 
 
-            <section class="precios info-seccion">
+            <section id="precios-planes" class="precios info-seccion container-fluid">
                 <h2 id="info">NUESTROS PASES</h2>
                 <p>Contamos con planes que se adaptan a tus necesidades</p>
                 <p>COMUNICATE AHORA Y ACCEDÉ A TODOS NUESTROS BENEFICIOS</p>
-                <ul class="pases">
-                    <li id="tipos-abono"> <strong>TRES DIAS<br />$18000<br /><br />
-                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                                INFO</a></strong>
+                <ul class="pases my-2">
+                    <li class="tipos-abono"> 
+                        <div class="info-precio">
+                            <p><strong>TRES DIAS</strong></p>
+                            <p> $18000</p>
+                            
+                        </div>
+                            
                     </li>
-                    <li id="tipos-abono"><strong>PASE FULL<br />$20000<br /><br />
-                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                                INFO</a></strong></li>
-                    <li id="tipos-abono"><strong>PASE VIP<br />$23000<br /><br />
-                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                                INFO</a></strong></li>
+
+                    <li class="tipos-abono"> 
+                        <div class="info-precio">
+                            <p><strong>FULL</strong></p>
+                            <p> $20000</p>
+
+                        </div>
+                            
+                    </li>
+
+                    <li class="tipos-abono"> 
+                        <div class="info-precio">
+                            <p><strong>PASE VIP</strong></p>
+                            <p> $23000</p>
+
+                        </div>
+                            
+                    </li>
                 </ul>
+               <button class="btn btn-light mb-3">
+                <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
+                    INFO</a></strong></li>
+               </button>
 
             </section>
 
@@ -161,11 +181,11 @@
 
             <!--APLICACIÓN-->
 
-            <section class="app celu">
+            <section id="descargar-app" class="app celu">
                 <div><img src="Multimedia/app.png" alt="imagen-aplicacion"></div>
                 <div class="appinfo">
                     <h2 class="tituloapp">NUESTRA APP</h2>
-                    <p id="reservar-turno">CONTAMOS CON UNA APP PARA QUE <br /> RESERVES TUS ACTIVIDADES</p>
+                    <p id="reservar-turno">CONTAMOS CON UNA APP PARA QUE RESERVES TUS ACTIVIDADES</p>
                     <a href="https://accesogym.com.ar/doblegiro/" target="_blank" class="enlace"
                         id="reservar-turno">DESCARGALA AQUÍ </strong>
                     </a>
@@ -174,59 +194,13 @@
 
             </section>
 
-            <!--BENEFICIOS-->
-
-            <!-- <section class="club" >
-            <h2><img src="multimedia/club.png" alt="logo-club"></h2>
-            <p>Te contamos que por ser parte de nuestro gym accedés a grandes beneficios. Presentá tu
-                carnet de alumna regular y accedé a grandes beneficios en las siguientes marcas</p>
-
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="multimedia/club-1.png" class="d-block w-100" alt="distrimay">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="multimedia/club-2.png" class="d-block w-100" alt="move">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="multimedia/club-3.png" class="d-block w-100" alt="vsolutions">
-                    </div>
-                    <div class="carousel-item active">
-                        <img src="multimedia/club-4.png" class="d-block w-100" alt="podologia">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="multimedia/club-5.png" class="d-block w-100" alt="dormirelax">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="multimedia/club-6.png" class="d-block w-100" alt="rgnutricion">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="multimedia/club-7.png" class="d-block w-100" alt="antilope">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            </div>
-        </section> -->
 
 
-
-        </div>
     </main>
 
     <!--FOOTER-->
 
-    <footer class="footer container">
+    <footer class="footer mt-3">
         <div class="datos-gimnasio">
             <p>DOBLE GIRO GYM DE CHICAS</p>
             <p> Dr Juan Caferatta 12 - Alto Alberdi</p>
