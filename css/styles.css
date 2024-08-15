@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
 
 
 /* MENU */
@@ -26,13 +29,13 @@ ul {
 .banner {
     width: 100%;
     height: 50%;
-    padding-bottom: 0; 
+    padding-bottom: 0;
 }
 
-#infogym {
+#info-gym {
     background-color: #321156;
     width: 100%;
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -47,38 +50,40 @@ h1 {
 }
 
 
-.intro{
+.intro {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     text-align: center;
     font-size: 15px;
     color: #FFFFFF;
-    padding: 15px;
+    padding: 20px;
 }
 
 .video-gym {
     margin: auto;
-    width: 250px;
-    
+    width: 100%;
+
 }
 
 /* CLASES */
 #clases-gym {
     background-color: #FFFFFF;
-    display: flex ;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .info-seccion {
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
 }
 
+
 h2 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 1.32rem;
     color: #321156;
 }
 
@@ -107,10 +112,11 @@ h2 {
 #tipos-abono {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-    text-align: center ;
+    text-align: center;
     color: #ffffff;
     padding-top: 60px;
-    background-color: #321156;
+    background-image: url(../multimedia/pesas.png);
+    background-size: auto;
     width: 220px;
     height: 180px;
     display: flex;
@@ -123,17 +129,81 @@ h2 {
     font-size: 17px;
 }
 
+/* UBICACIÓN */
 
-
-
-@media only screen and (min-width: 768px){
-
+.mapa {
+    background-color: #321156;
+    /* display: flex;
+    justify-content: center;  */
+    
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
 }
 
-@media only screen and (min-width: 1024px){
-    #descripcion-gym{
+
+.maps {
+display: none;
+}
+
+
+/* APLICACIÓN */
+
+.app {
+    background-color: #FFFFFF;
+    display: flex;}
+    
+    
+.celu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.appinfo {
+    color: #321156;
+    justify-content: center;
+    text-align: center;
+}
+    
+/* .tituloapp {
+    padding-top: 130px;
+} */
+
+#reservar-turno {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.enlace {
+    color: #FFFFFF;
+    background-color: #E3409D;}
+
+
+    /* CLUB DE BENEFICIOS */
+
+.club {
+    background-color: #321156;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* .carousel-inner{
+    width: 150px;
+   }
+    */
+
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1024px) {
+    #descripcion-gym {
         width: 50%;
     }
 
 }
-

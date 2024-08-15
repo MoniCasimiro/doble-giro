@@ -25,10 +25,10 @@
     <header class="menu">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">¿QUIÉNES SOMOS?</a>
+                <a class="nav-link active" aria-current="page" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" class=>ACTIVIDADES</a>
+                <a class="nav-link" href="#info" class=>ACTIVIDADES</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" class=>PLANES</a>
@@ -41,28 +41,30 @@
                     target="_blank">CONTACTANOS</a>
         </ul>
 
-    </header>
-
-
-    <!--DESCRIPCION-->
-    <main>
         <div>
             <img class="banner" src="Multimedia/banner.png" alt="banner logo">
 
         </div>
 
-        <section id="infogym">
+    </header>
+
+
+    <!--DESCRIPCION-->
+    <main>
+
+
+        <section id="info-gym">
 
             <div id="descripcion-gym">
 
-                <h1>DOBLE GIRO GYM</h1>
+                <h1 id="quienes-somos">DOBLE GIRO GYM</h1>
 
                 <p class="intro">SOMOS UN ESPACIO CREADO PARA QUE DES TU MÁXIMO POTENCIAL.</p>
-                <p class="intro">Un gimnasio
-                    exclusivo para
-                    mujeres, contamos con equipamiento,
-                    actividades y planes pensados para cada alumna. Contamos con profes de educación física
-                    que te acompañarán y guiarán en cada clase.
+                <p class="intro">Somos un gimnasio exclusivo para mujeres, contamos con equipamiento,
+                    actividades y planes pensados para cada alumna. Tenemos una sala de musculación
+                    equipada para que puedas entrenar de manera cómoda, así como los elementos necesarios
+                    para que trabajes de manera individual. Nuestras profes de educación física te
+                    acompañarán y guiarán en cada clase para que puedas alcanzar tus objetivos.
                 </p>
                 <p class="intro">¡SUMATE AL CAMBIO!</p>
             </div>
@@ -76,125 +78,155 @@
 
         <!--CLASES-->
 
+        <div class="container">
 
-        <section class="info-seccion">
-            <h2 id="info">ENTRENÁ CON NOSOTRAS</h2>
+            <section class="info-seccion">
+                <h2 id="info">ENTRENÁ CON NOSOTRAS</h2>
 
-            <div id="clases-gym">
+                <div id="clases-gym">
 
-                <div class="card" style="width: 18rem;">
-                    <img src="multimedia/muscu.png" class="musculación" alt="clases-musculación">
-                    <div class="actividades">
-                        <h3 class="text-center">MUSCULACIÓN</h3>
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/muscu.png" class="musculación" alt="clases-musculación">
+                        <div class="actividades">
+                            <h3 class="text-center m-1">MUSCULACIÓN</h3>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/funcional.png" class="funcional" alt="funcional">
+                        <div class="actividades">
+                            <h3 class="text-center m-1">FUNCIONAL</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/grupales.png" class="grupales" alt="clases-grupales">
+                        <div class="actividades">
+                            <h3 class="text-center m-1">CLASES GRUPALES</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/teens.png" class="teens" alt="gym-teens">
+                        <div class="actividades">
+                            <h3 class="text-center m-1">GYM TEENS</h3>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <img src="multimedia/funcional.png" class="funcional" alt="funcional">
-                    <div class="actividades">
-                        <h3>FUNCIONAL</h3>
-                    </div>
+                <p class="mas-info text-center mt-3"><a href="./clases.html">CONOCER MÁS</a></p>
+
+            </section>
+
+
+            <!--PASES-->
+
+
+            <section class="precios info-seccion">
+                <h2 id="info">NUESTROS PASES</h2>
+                <p>Contamos con planes que se adaptan a tus necesidades</p>
+                <p>COMUNICATE AHORA Y ACCEDÉ A TODOS NUESTROS BENEFICIOS</p>
+                <ul class="pases">
+                    <li id="tipos-abono"> <strong>TRES DIAS<br />$18000<br /><br />
+                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
+                                INFO</a></strong>
+                    </li>
+                    <li id="tipos-abono"><strong>PASE FULL<br />$20000<br /><br />
+                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
+                                INFO</a></strong></li>
+                    <li id="tipos-abono"><strong>PASE VIP<br />$23000<br /><br />
+                            <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
+                                INFO</a></strong></li>
+                </ul>
+
+            </section>
+
+
+            <!--UBICACIÓN-->
+
+            <section class="mapa info-seccion">
+                <div>
+                    <h2><span style="color: white;">¿DÓNDE ESTAMOS?</span></h2>
+                    <p>CAFERATTA 12 - ALTO ALBERDI</p>
                 </div>
-
-
-                <div class="card" style="width: 18rem;">
-                    <img src="multimedia/grupales.png" class="grupales" alt="clases-grupales">
-                    <div class="actividades">
-                        <h3>CLASES GRUPALES</h3>
-                    </div>
-                </div>
-
-
-                <div class="card" style="width: 18rem;">
-                    <img src="multimedia/teens.png" class="teens" alt="gym-teens">
-                    <div class="actividades">
-                        <h3>GYM TEENS</h3>
-                    </div>
-                </div>
-            </div>
-
-            <p class="mas-info text-center"><a href="./clases.html">CONOCER MÁS</a></p>
-
-        </section>
-
-
-        <!--PASES-->
-
-
-        <section class="precios">
-            <h2 id="info">NUESTROS PASES</h2>
-            <p>info</p>
-            <ul class="pases">
-                <li id="tipos-abono"> <strong>TRES DIAS<br />$18000<br /><br />
-                        <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                            INFO</a></strong>
-                </li>
-                <li id="tipos-abono"><strong>PASE FULL<br />$20000<br /><br />
-                        <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                            INFO</a></strong></li>
-                <li id="tipos-abono"><strong>PASE VIP<br />$23000<br /><br />
-                        <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                            INFO</a></strong></li>
-            </ul>
-
-        </section>
-
-
-        <!--UBICACIÓN-->
-        <!-- 
-            <section class="mapa">
-                <h2 class="dirección"><span style="color: white;">¿DÓNDE ESTAMOS?</span></h2>
                 <iframe class="maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3760621552315!2d-64.22491492532913!3d-31.40376339563945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298be8dd8ec1d%3A0xcf4f62bc1b93b66b!2sDOBLE%20GIRO%20GYM%20DE%20CHICAS!5e0!3m2!1ses-419!2sar!4v1721258088996!5m2!1ses-419!2sar"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            </section> -->
+            </section>
 
-        <!--APLICACIÓN-->
 
-        <section class="app">
-            <div class="celu"><img src="Multimedia/app.png" alt="imagenaplicacion"></div>
-            <div class="appinfo">
-                <h2 class="tituloapp">NUESTRA APP</h2>
-                <p id="reservar-turno">CONTAMOS CON UNA APP PARA QUE <br /> RESERVES TUS ACTIVIDADES</p>
-                <a href="https://accesogym.com.ar/doblegiro/" target="_blank" class="enlace"
-                    id="reservar-turno">DESCARGALA AQUÍ </strong>
-                </a>
+            <!--APLICACIÓN-->
+
+            <section class="app celu">
+                <div><img src="Multimedia/app.png" alt="imagen-aplicacion"></div>
+                <div class="appinfo">
+                    <h2 class="tituloapp">NUESTRA APP</h2>
+                    <p id="reservar-turno">CONTAMOS CON UNA APP PARA QUE <br /> RESERVES TUS ACTIVIDADES</p>
+                    <a href="https://accesogym.com.ar/doblegiro/" target="_blank" class="enlace"
+                        id="reservar-turno">DESCARGALA AQUÍ </strong>
+                    </a>
+                </div>
+
+
+            </section>
+
+            <!--BENEFICIOS-->
+
+            <!-- <section class="club" >
+            <h2><img src="multimedia/club.png" alt="logo-club"></h2>
+            <p>Te contamos que por ser parte de nuestro gym accedés a grandes beneficios. Presentá tu
+                carnet de alumna regular y accedé a grandes beneficios en las siguientes marcas</p>
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="multimedia/club-1.png" class="d-block w-100" alt="distrimay">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/club-2.png" class="d-block w-100" alt="move">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/club-3.png" class="d-block w-100" alt="vsolutions">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="multimedia/club-4.png" class="d-block w-100" alt="podologia">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/club-5.png" class="d-block w-100" alt="dormirelax">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/club-6.png" class="d-block w-100" alt="rgnutricion">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="multimedia/club-7.png" class="d-block w-100" alt="antilope">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-
-        </section>
-
-        <!--BENEFICIOS-->
-
-        <div id="club-beneficios" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        </section> -->
+
+
+
         </div>
-
     </main>
 
     <!--FOOTER-->
 
-    <footer class="footer">
+    <footer class="footer container">
         <div class="datos-gimnasio">
             <p>DOBLE GIRO GYM DE CHICAS</p>
             <p> Dr Juan Caferatta 12 - Alto Alberdi</p>
