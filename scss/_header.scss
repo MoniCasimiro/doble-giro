@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* MENU */
+  .menu {
+    background-color: #321156;
+  
+    header {
+      ul {
+        li {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+}

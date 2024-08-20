@@ -2,25 +2,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     font-family: "Montserrat", sans-serif;
-}
-
-
-/* MENU */
-.menu {
+  }
+  
+  /* MENU */
+  .menu {
     background-color: #321156;
-}
+  
+    header {
+      ul {
+        li {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          color: #ffffff;
+        }
+      }
+    }
+  }
 
-header ul li {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-ul {
+  ul {
     list-style: none;
 }
 
@@ -39,30 +42,38 @@ ul {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+
+    #descripcion-gym {
+
+     
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 60px;
+            color: #FFFFFF;
+        }
+        
+        .intro {
+            font-family: "Montserrat", sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 15px;
+            color: #FFFFFF;
+        }
+
+    }
+    
+    .video-gym {
+        margin: auto;
+        // width: 100%;
+    
+    }
+
 }
 
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 60px;
-    color: #FFFFFF;
-}
 
 
-.intro {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 15px;
-    color: #FFFFFF;
-}
-
-.video-gym {
-    margin: auto;
-    width: 100%;
-
-}
 
 /* CLASES */
 #clases-gym {
