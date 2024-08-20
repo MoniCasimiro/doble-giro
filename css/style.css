@@ -13,11 +13,10 @@ body {
 .menu {
   background-color: #321156;
 }
-
-header ul li {
+.menu header ul li {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 ul {
@@ -39,26 +38,22 @@ ul {
   flex-wrap: wrap;
   text-align: center;
 }
-
-h1 {
+#info-gym #descripcion-gym h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
 }
-
-.intro {
+#info-gym #descripcion-gym .intro {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
   color: #FFFFFF;
 }
-
-.video-gym {
+#info-gym .video-gym {
   margin: auto;
-  width: 100%;
 }
 
 /* CLASES */
@@ -233,7 +228,7 @@ a.social-media img {
     width: 30%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   #descripcion-gym {
     padding: 10px;
     width: 50%;
