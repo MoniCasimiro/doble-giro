@@ -1,0 +1,25 @@
+.plans {
+    background-color: $secondary-color;
+
+    &--details{
+      text-align: center;
+    }
+    
+    &--list {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      
+      &__item {
+        color: #321156;
+        text-align: center;
+        color: #ffffff;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+      
+  
+  }
+  

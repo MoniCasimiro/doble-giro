@@ -1,0 +1,24 @@
+.app {
+    background-color: $white-color;
+    display: flex;
+    
+    .appinfo {
+      color: $primary-color;
+      text-align: center;
+      width: 80%;
+    }
+  
+    #reservar-turno {
+      @include font(1.3rem, bolder);
+      text-align: center;
+    }
+  
+    .enlace {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+
+    
+  }
+
+ 

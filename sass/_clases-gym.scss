@@ -1,0 +1,16 @@
+.descripcion-clases {
+    animation-name: aparicion;
+    animation-duration: 2.5s, 5s, 1s;
+}
+
+@keyframes aparicion {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+
+    }
+}

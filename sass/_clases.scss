@@ -1,0 +1,33 @@
+.classes{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  padding: 0px;
+  background-color: $primary-color;
+  border-radius: 0px;
+}
+
+#info {
+  padding: 0px;
+}
+
+.invitacion {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+

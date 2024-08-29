@@ -1,0 +1,26 @@
+.footer {
+    background-image: url(../multimedia/pie-de-pag.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid $white-color;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;
+    width: 100vw;
+  
+    .datos-gimnasio {
+      @include font(13px);
+      text-align: left;
+      color: $white-color;
+    }
+  
+    .logos {
+      display: flex;
+  
+      a.social-media img {
+        width: 24px;
+      }
+    }
+  }
+  
