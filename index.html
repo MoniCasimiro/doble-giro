@@ -13,55 +13,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body>
 
-
     <!--MENU-->
+    <header class="header">
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <a class="navbar-brand" href="./index.html">Doble Giro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"   
+            aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="header__nav navbar-nav justify-content-end">
+                    <li class="header__nav-item nav-item">
+                        <a class="header__nav-link nav-link active" aria-current="page" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
+                    </li>
+                    <li class="header__nav-item nav-item">
+                        <a class="header__nav-link nav-link" href="#info">ACTIVIDADES</a>
+                    </li>
+                    <li class="header__nav-item nav-item">
+                        <a class="header__nav-link nav-link" href="#precios-planes">PLANES</a>
+                    </li>
+                    <li class="header__nav-item nav-item">
+                        <a class="header__nav-link nav-link" href="#descargar-app">APP</a>
+                    </li>
+                    <li class="header__nav-item nav-item">
+                        <a class="header__nav-link nav-link active" aria-current="page" href="https://bit.ly/doblegiro"
+                            target="_blank">CONTACTANOS</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
 
-    <header class="menu">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#quienes-somos">¿QUIÉNES SOMOS?</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#info" class=>ACTIVIDADES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#precios-planes" class=>PLANES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#descargar-app">APP</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://bit.ly/doblegiro"
-                    target="_blank">CONTACTANOS</a>
-        </ul>
-
-        <div>
-            <img class="banner" src="multimedia/banner.png" alt="banner logo">
-
-
+       
+        <div class="container-fluid p-0">
+            <img class="header__banner w-100" src="multimedia/banner.png" alt="banner logo">
         </div>
-
     </header>
-
 
     <!--DESCRIPCION-->
     <main id="menu-principal">
-
-
-        <section id="info-gym">
-
-            <div id="descripcion-gym">
-
-                <h1 id="quienes-somos">DOBLE GIRO GYM</h1>
-
-                <p class="intro">SOMOS UN ESPACIO CREADO PARA QUE DES TU MÁXIMO POTENCIAL.</p>
-                <p class="intro">Somos un gimnasio exclusivo para mujeres, contamos con equipamiento,
+        <section id="info-gym" class="bg-primary-color row container-fluid d-flex flex-wrap mb-4 m-auto">
+            <div id="descripcion-gym" class="p-5 col-12 col-md-6 text-center m-auto">
+                <h1 id="quienes-somos" class="gym-info__title color-white">DOBLE GIRO GYM</h1>
+                <p class="gym-info__intro color-white">SOMOS UN ESPACIO CREADO PARA QUE DES TU MÁXIMO POTENCIAL.</p>
+                <p class="gym-info__intro color-white">Somos un gimnasio exclusivo para mujeres, contamos con
+                    equipamiento,
                     actividades y planes pensados para cada alumna. Tenemos una sala de musculación
                     equipada para que puedas entrenar de manera cómoda, así como los elementos necesarios
                     para que trabajes de manera individual. Nuestras profes de educación física te
@@ -70,158 +81,145 @@
                 <p class="intro">¡SUMATE AL CAMBIO!</p>
             </div>
 
-            <video class="video-gym" controls>
-                <source src="multimedia/video gym.mp4" type="video/mp4">
-            </video>
+            <div class="col-12 col-md-6 mb-4">
+                <video class="video-gym w-50 w-sm-100 d-block m-auto" autoplay loop muted playsinline>
+                    <source src="multimedia/video gym.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!--CLASES-->
+        <section class="classes info-seccion">
+            <h2 id="info" class="classes__title text-center my-5 invitacion-gym">ENTRENÁ CON NOSOTRAS</h2>
+
+            <div class="classes--list row d-flex flex-wrap justify-content-center" id="clases-gym">
+                <div class="classes--list__item card col-12 col-sm-6 col-md-3">
+                    <img src="multimedia/muscu.png" class="classes__image w-100" alt="clases-musculación">
+                    <div class="item--details">
+                        <h3 class="item--details__title text-center m-2 bg-primary-color">MUSCULACIÓN</h3>
+                    </div>
+                </div>
+
+                <div class="classes--list__item card col-12 col-sm-6 col-md-3">
+                    <img src="multimedia/funcional.png" class="classes__image w-100" alt="clases-funcional">
+                    <div class="item--details">
+                        <h3 class="item--details__title text-center m-2 bg-primary-color color-white">FUNCIONAL</h3>
+                    </div>
+                </div>
+
+                <div class="classes--list__item card col-12 col-sm-6 col-md-3">
+                    <img src="multimedia/grupales.png" class="classes__image w-100" alt="clases-grupales">
+                    <div class="item--details">
+                        <h3 class="item--details__title text-center m-2 bg-primary-color color-white p-0">GRUPALES</h3>
+                    </div>
+                </div>
+
+                <div class="classes--list__item card col-12 col-sm-6 col-md-3">
+                    <img src="multimedia/teens.png" class="classes__image w-100" alt="gym-teens">
+                    <div class="item--details">
+                        <h3 class="item--details__title text-center m-2 bg-primary-color color-white">GYM TEENS</h3>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-outline-info btn-block my-5 m-auto">
+                <a href="./views/clases.html" target="_blank" class="plans__link wsp">CONOCER MÁS</a>
+            </button>
 
         </section>
 
-
-        <!--CLASES-->
-
-   
-
-            <section class="info-seccion">
-                <h2 id="info">ENTRENÁ CON NOSOTRAS</h2>
-
-                <div id="clases-gym">
-
-                    <div class="card">
-                        <img src="multimedia/muscu.png" class="musculación" alt="clases-musculación">
-                        <div class="actividades">
-                            <h3 class="text-center m-2">MUSCULACIÓN</h3>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="multimedia/funcional.png" class="funcional" alt="funcional">
-                        <div class="actividades">
-                            <h3 class="text-center m-2">FUNCIONAL</h3>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <img src="multimedia/grupales.png" class="grupales" alt="clases-grupales">
-                        <div class="actividades">
-                            <h3 class="text-center m-2">GRUPALES</h3>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <img src="multimedia/teens.png" class="teens" alt="gym-teens">
-                        <div class="actividades">
-                            <h3 class="text-center m-2">GYM TEENS</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <p class="mas-info text-center mt-3"><a href="./clases.html">CONOCER MÁS</a></p>
-
-            </section>
-
-
-            <!--PASES-->
-
-
-            <section id="precios-planes" class="precios info-seccion container-fluid">
-                <h2 id="info">NUESTROS PASES</h2>
+        <!--PASES-->
+        <section id="precios-planes" class="plans p-0 d-flex flex-column">
+            <div class="plans--details text-center">
+                <h2>NUESTROS PASES</h2>
                 <p>Contamos con planes que se adaptan a tus necesidades</p>
                 <p>COMUNICATE AHORA Y ACCEDÉ A TODOS NUESTROS BENEFICIOS</p>
-                <ul class="pases my-2">
-                    <li class="tipos-abono"> 
-                        <div class="info-precio">
-                            <p><strong>TRES DIAS</strong></p>
-                            <p> $18000</p>
-                            
-                        </div>
-                            
-                    </li>
 
-                    <li class="tipos-abono"> 
-                        <div class="info-precio">
-                            <p><strong>FULL</strong></p>
-                            <p> $20000</p>
+            </div>
+            <ul class="list-group-horizontal plans--list pases my-2 w-4 d-flex justify-content-around">
+                <li class="list-group-item plans--list__item tipos-abono">
+                    <div>
+                        <p><strong>TRES DIAS</strong></p>
+                        <p>$18000</p>
+                    </div>
+                </li>
 
-                        </div>
-                            
-                    </li>
+                <li class="list-group-item plans--list__item tipos-abono">
+                    <div>
+                        <p><strong>FULL</strong></p>
+                        <p>$20000</p>
+                    </div>
+                </li>
 
-                    <li class="tipos-abono"> 
-                        <div class="info-precio">
-                            <p><strong>PASE VIP</strong></p>
-                            <p> $23000</p>
+                <li class="list-group-item plans--list__item tipos-abono">
+                    <div>
+                        <p><strong>FULL</strong></p>
+                        <p>$20000</p>
+                    </div>
+                </li>
 
-                        </div>
-                            
-                    </li>
-                </ul>
-               <button class="btn btn-light mb-3">
-                <a href="https://bit.ly/doblegiro" target="_blank" class="wsp">MÁS
-                    INFO</a></strong></li>
-               </button>
+            </ul>
+            <button type="button" class="d-block btn btn-outline-primary m-auto">
+                <a href="https://bit.ly/doblegiro" target="_blank" class="plans__link wsp">MÁS INFO</a>
+            </button>
+        </section>
 
-            </section>
+        <!--UBICACIÓN-->
+        <section class="location info-seccion row ubicacion-gps">
+            <div class="location__details p-4 col-12 col-md-6 d-flex flex-direction-column align-items-center">
+                <h2 class="m-auto">¿DÓNDE ESTAMOS?</h2>
+                <p class="m-auto">CAFERATTA 12 - ALTO ALBERDI</p>
+            </div>
+            <iframe class="location__map maps col-12 col-md-6"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3760621552315!2d-64.22491492532913!3d-31.40376339563945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298be8dd8ec1d%3A0xcf4f62bc1b93b66b!2sDOBLE%20GIRO%20GYM%20DE%20CHICAS!5e0!3m2!1ses-419!2sar!4v1721258088996!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
 
+        <!--APLICACIÓN-->
+        <section id="descargar-app" class="app info-seccion d-flex flex-wrap justify-content-center">
+            <div class="app__image">
+                <img src="multimedia/app.png" alt="imagen-aplicacion">
+            </div>
+            <div class="app__info appinfo text-center m-auto">
+                <h2 class="app__title tituloapp">NUESTRA APP</h2>
+                <p class="app__description" id="reservar-turno">CONTAMOS CON UNA APP PARA QUE RESERVES TUS ACTIVIDADES
+                </p>
+                <button class="btn btn-outline-primary">
+                    <a href="https://accesogym.com.ar/doblegiro/" target="_blank" class="app__link enlace"
+                        id="reservar-turno">DESCARGALA AQUÍ</a>
 
-            <!--UBICACIÓN-->
-
-            <section class="mapa info-seccion">
-                <div>
-                    <h2><span style="color: white;">¿DÓNDE ESTAMOS?</span></h2>
-                    <p>CAFERATTA 12 - ALTO ALBERDI</p>
-                </div>
-                <iframe class="maps"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3760621552315!2d-64.22491492532913!3d-31.40376339563945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298be8dd8ec1d%3A0xcf4f62bc1b93b66b!2sDOBLE%20GIRO%20GYM%20DE%20CHICAS!5e0!3m2!1ses-419!2sar!4v1721258088996!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </section>
-
-
-            <!--APLICACIÓN-->
-
-            <section id="descargar-app" class="app celu">
-                <div><img src="multimedia/app.png" alt="imagen-aplicacion"></div>
-                <div class="appinfo">
-                    <h2 class="tituloapp">NUESTRA APP</h2>
-                    <p id="reservar-turno">CONTAMOS CON UNA APP PARA QUE RESERVES TUS ACTIVIDADES</p>
-                    <a href="https://accesogym.com.ar/doblegiro/" target="_blank" class="enlace"
-                        id="reservar-turno">DESCARGALA AQUÍ </strong>
-                    </a>
-                </div>
-
-
-            </section>
-
-
-
+                </button>
+            </div>
+        </section>
     </main>
 
     <!--FOOTER-->
-
-    <footer class="footer mt-3">
-        <div class="datos-gimnasio">
+    <footer class="footer mt-3 bg-primary-color footer">
+        <div class="footer__info datos-gimnasio ">
             <p>DOBLE GIRO GYM DE CHICAS</p>
             <p> Dr Juan Caferatta 12 - Alto Alberdi</p>
             <p>SEGUINOS EN NUESTRAS REDES</p>
         </div>
 
-        <div class="logos">
-            <a class="social-media" href="https://www.instagram.com/doblegiro.gym" target="_blank"><img
-                    src="multimedia/inst.png" alt="logo instagram">
-                <a class="social-media" href="https://www.facebook.com/doblegirodance/?locale=es_LA"
-                    target="_blank"><img src="multimedia/face.png" alt="logo facebook"></a>
+        <div class="footer__social logos">
+            <a class="footer__social-link social-media" href="https://www.instagram.com/doblegiro.gym" target="_blank">
+                <img src="multimedia/inst.png" alt="logo instagram">
+            </a>
+            <a class="footer__social-link social-media" href="https://www.facebook.com/doblegirodance/?locale=es_LA"
+                target="_blank">
+                <img src="multimedia/face.png" alt="logo facebook">
+            </a>
         </div>
-
-
-
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" TYP
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
